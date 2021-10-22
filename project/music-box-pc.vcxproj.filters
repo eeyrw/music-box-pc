@@ -33,6 +33,24 @@
     <ClCompile Include="..\rtaudio\RtAudio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\WaveTableSynthesizer\EnvelopeTable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WaveTableSynthesizer\Player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WaveTableSynthesizer\score.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WaveTableSynthesizer\SynthCore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WaveTableSynthesizer\WaveTable_Celesta_C5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WaveTableSynthesizer\WaveTable_Celesta_C6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\rtaudio\include\asio.h">
