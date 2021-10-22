@@ -11,6 +11,7 @@
 #include "RtAudio.h"
 #include <iostream>
 #include <cstdlib>
+#include <cstring>
 #include <map>
 #include "Player.h"
 /*
@@ -44,7 +45,7 @@ typedef double MY_TYPE;
 // Platform-dependent sleep routines.
 #if defined( __WINDOWS_ASIO__ ) || defined( __WINDOWS_DS__ ) || defined( __WINDOWS_WASAPI__ )
 #include <windows.h>
-#define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds ) 
+#define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds )
 #else // Unix variants
 #include <unistd.h>
 #define SLEEP( milliseconds ) usleep( (unsigned long) (milliseconds * 1000.0) )
