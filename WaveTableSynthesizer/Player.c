@@ -11,7 +11,7 @@ extern unsigned char Score[];
 void Player32kProc(volatile Player *player) {
     Synth(&(player->mainSynthesizer));
     player->currentTick++;
-    if (player->decayGenTick < 200)
+    if (player->decayGenTick < 150)
         player->decayGenTick += 1;
 }
 
