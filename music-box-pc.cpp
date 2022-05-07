@@ -238,7 +238,11 @@ int main(int argc, char *argv[])
 	oParams.firstChannel = offset;
 
 	if (device == 0)
+	{
 		oParams.deviceId = dac.getDefaultOutputDevice();
+		std::cout << "Select default output device: " << oParams.deviceId << '\n';
+	}
+
 
 	options.flags = RTAUDIO_HOG_DEVICE;
 	options.flags |= RTAUDIO_SCHEDULE_REALTIME;

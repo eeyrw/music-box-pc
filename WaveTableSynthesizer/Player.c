@@ -4,7 +4,7 @@
 #include "SynthCore.h"
 #include "Player.h"
 
-#define LOGD printf
+#define LOGD
 
 extern unsigned char Score[];
 
