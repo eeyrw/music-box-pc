@@ -31,6 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add option="-D__LINUX_PULSE__" />
 			<Add option="-D__LINUX_ALSA__" />
 			<Add directory="../WaveTableSynthesizer" />
 			<Add directory="../rtaudio" />
@@ -39,6 +40,8 @@
 		<Linker>
 			<Add library="pthread" />
 			<Add library="asound" />
+			<Add library="pulse" />
+			<Add library="libpulse-simple" />
 		</Linker>
 		<Unit filename="../WaveTableSynthesizer/EnvelopeTable.c">
 			<Option compilerVar="CC" />
@@ -52,13 +55,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../WaveTableSynthesizer/SynthCore.h" />
-		<Unit filename="../WaveTableSynthesizer/WaveTable_Celesta_C5.c">
+		<Unit filename="../WaveTableSynthesizer/WaveTable.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../WaveTableSynthesizer/WaveTable_Celesta_C5.h" />
-		<Unit filename="../WaveTableSynthesizer/WaveTable_Celesta_C6.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="../WaveTableSynthesizer/WaveTable_Celesta_C6.h" />
 		<Unit filename="../WaveTableSynthesizer/score.c">
 			<Option compilerVar="CC" />

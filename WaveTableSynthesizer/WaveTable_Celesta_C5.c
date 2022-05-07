@@ -1,8 +1,8 @@
 #include <stdint.h>
-#include <WaveTable_Celesta_C5.h>
+#include <WaveTable.h>
 // Sample's base frequency: 523.629906 Hz
 // Sample's sample rate: 32000 Hz
-const int16_t WaveTable_Celesta_C5[WAVETABLE_CELESTA_C5_LEN]={
+const int16_t WaveTable[WAVETABLE_LEN]={
 // Attack Samples:
     12,  -142,  -127,  -198,     8,   109,  -157,   345,  -189,  -106,
    555,  -508,   495,   830,  -452,  1372,   803,     5,  2262,  -224,

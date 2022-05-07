@@ -126,8 +126,7 @@
     <ClCompile Include="..\WaveTableSynthesizer\Player.c" />
     <ClCompile Include="..\WaveTableSynthesizer\score.c" />
     <ClCompile Include="..\WaveTableSynthesizer\SynthCore.c" />
-    <ClCompile Include="..\WaveTableSynthesizer\WaveTable_Celesta_C5.c" />
-    <ClCompile Include="..\WaveTableSynthesizer\WaveTable_Celesta_C6.c" />
+    <ClCompile Include="..\WaveTableSynthesizer\WaveTable.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\rtaudio\include\asio.h" />

@@ -45,10 +45,7 @@
     <ClCompile Include="..\WaveTableSynthesizer\SynthCore.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\WaveTableSynthesizer\WaveTable_Celesta_C5.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\WaveTableSynthesizer\WaveTable_Celesta_C6.c">
+    <ClCompile Include="..\WaveTableSynthesizer\WaveTable.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

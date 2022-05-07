@@ -192,7 +192,7 @@ int audioRenderCallback(void *outputBuffer, void * /*inputBuffer*/, unsigned int
 
 	for (i = 0; i < nBufferFrames; i++) {
 		Player32kProc(pPlayer);
-		int32_t rawSynthOutput = pPlayer->mainSynthesizer.mixOut >> 8;
+		int32_t rawSynthOutput = pPlayer->mainSynthesizer.mixOut >> 10;
 		if (rawSynthOutput < -32768)
 			rawSynthOutput = -32768;
 		else if (rawSynthOutput > 32767)
